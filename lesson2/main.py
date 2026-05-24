@@ -7,6 +7,6 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-3.5-flash", contents="台灣地圖詳細顯示 ")
+    model="gemini-3.5-flash", contents=""用 ASCII 畫出台灣地圖顯示 ")
 print(response.text)
 
