@@ -7,6 +7,6 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-3.5-flash", contents="美國多大")
+    model="gemini-3.5-flash", contents="美國多大並畫圖顯示 ")
 print(response.text)
 
