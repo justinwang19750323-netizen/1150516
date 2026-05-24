@@ -7,7 +7,6 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-2.0-flash", contents="為何川普喜歡打仗"
-)
+    model="gegemini-3.5-flash", contents="為何川普打仗")
 print(response.text)
 
