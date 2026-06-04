@@ -7,7 +7,6 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-3.5-flash", contents="美國人性觀念 \ ")
+    model="gemini-3.5-flash", contents="台灣文化 \ ")
 print(response.text)
-
 
