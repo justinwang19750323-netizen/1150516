@@ -7,6 +7,6 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-3.5-flash", contents="台灣文化 \ ")
+    model="gemini-3.5-flash", contents="膽結石的原因與治療方式 \ ")
 print(response.text)
 
