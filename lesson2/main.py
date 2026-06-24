@@ -7,5 +7,5 @@ load_dotenv()
 client = genai.Client()
 
 response = client.models.generate_content(
-    model="gemini-2.5-pro", contents="詳解pid控制")
+    model="gemini-2.5-pro", contents="詳解龍捲風原因")
 print(response.text)
